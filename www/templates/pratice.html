@@ -1,0 +1,56 @@
+<ion-view view-title="Particar" hide-nav-bar="true" class="pratice-view">
+    <ion-content>
+
+        <!-- <p>Pontuação</p> -->
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                {{ quest.question }}
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <ion-list ng-repeat="option in quest.options">
+                    <ion-radio ng-model="choice" ng-value="'A'"> {{option.title}}</ion-radio>
+                </ion-list>
+            </div>
+        </div>
+
+        <div class="card card-button-bar">
+            <div class="button-bar">
+                <!-- Dica, eliminar, pular, dobrar -->
+                <a class="button button-calm"><i class="icon ion-information-circled"></i></a>
+                <a class="button button-assertive"><i class="icon ion-trash-a"></i></a>
+                <a class="button button-light"><i class="icon ion-forward"></i></a>
+                <a class="button button-royal button-text-in-button-bar-icon"><i>2X</i></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <strong>Dica:</strong> Ela é altamente usada por matemáticos
+            </div>
+        </div>
+    </ion-content>
+
+    <!-- <div class="bar bar-footer">
+        <div class="card card-button-bar">
+            <div class="button-bar">
+                <a class="button button-calm"><i class="icon ion-information-circled"></i></a>
+                <a class="button button-assertive"><i class="icon ion-trash-a"></i></a>
+                <a class="button button-light"><i class="icon ion-forward"></i></a>
+                <a class="button button-royal button-text-in-button-bar-icon"><i>2X</i></a>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="button-bar button-bar-footer">
+        <!-- Dica, eliminar, pular, dobrar -->
+        <a class="button button-stable"><i class="icon ion-arrow-left-a"></i></a>
+        <a class="button button-balanced"><i class="icon ion-checkmark"></i></a>
+        <a class="button button-stable"><i class="icon ion-arrow-right-a"></i></a>
+    </div>
+
+</ion-view>

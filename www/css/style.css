@@ -1,1 +1,48 @@
-/* Empty. Add your own CSS if you like */
+/* All */
+
+body {
+    /* background-image: url('../img/background.jpg'); */
+}
+
+
+/* Menu lateral */
+
+.user-bar {
+    text-align: center;
+}
+
+.user-bar img {
+    border-radius: 50%;
+    height: 150px;
+}
+
+.button-bar-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* prative view */
+
+.pratice-view .scroll-content {
+    margin-bottom: 60px !important;
+}
+
+
+/* Fix */
+
+.card.card-button-bar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border-radius: 4px;
+}
+
+.button-text-in-button-bar-icon {
+    padding-top: 4px !important;
+    font-weight: 550 !important;
+}
+
+.footer-bar-buttom {
+    height: auto;
+    padding: 0px;
+}

@@ -53,4 +53,28 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+})
+
+.controller('LoginCtrl', function($scope, $stateParams) {
+
+})
+
+.controller('praticeCtrl', function($scope, $stateParams) {
+  $scope.quest = {
+    question: "Qual das linguagens abaixo não é orientada a objetos?",
+    resultId:3,
+    options: [
+      {id: 1, title: "C#"},
+      {id: 2, title: "Java"},
+      {id: 3, title: "Lisp"},
+    ],
+  };
+})
+
+.controller('rankingCtrl', function($scope, $stateParams) {
+
+})
+
+.controller('settingsCtrl', function($scope, $stateParams) {
+
 });
